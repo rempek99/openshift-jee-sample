@@ -196,23 +196,23 @@
                     </compilerArguments>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.3</version>
-                <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <webResources>
-                        <resource>
-                            <filtering>true</filtering>
-                            <directory>src/main/webapp</directory>
-                        </resource>
-                        <resource>
-                            <directory>vuejs/dist</directory>
-                        </resource>
-                    </webResources>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-war-plugin</artifactId>-->
+<!--                <version>2.3</version>-->
+<!--                <configuration>-->
+<!--                    <failOnMissingWebXml>false</failOnMissingWebXml>-->
+<!--                    <webResources>-->
+<!--                        <resource>-->
+<!--                            <filtering>true</filtering>-->
+<!--                            <directory>src/main/webapp</directory>-->
+<!--                        </resource>-->
+<!--                        <resource>-->
+<!--                            <directory>vuejs/dist</directory>-->
+<!--                        </resource>-->
+<!--                    </webResources>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
