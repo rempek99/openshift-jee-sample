@@ -38,8 +38,8 @@ public class MailManager {
     private final String mailWithContentTemplate = "templates/mailWithContentTemplate.html";
 
 
-    @Resource(name = "enableMailing")
-    private boolean isEnabled;
+//    @Resource(name = "enableMailing")
+    private boolean isEnabled = false;
 
     public String getMailWithButtonTemplate() {
         return getResourceAsString(mailWithButtonTemplate);
