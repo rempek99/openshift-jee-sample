@@ -54,7 +54,7 @@
         <payara.password>yinReneif1</payara.password>
         <payara.hostname>172.16.0.84</payara.hostname>
 
-        <enableMailing>true</enableMailing>
+<!--        <enableMailing>true</enableMailing>-->
         <wildfly-home>C:\Users\Sisilaish\wildfly-25.0.0.Final</wildfly-home>
         <db.jdbc.url>jdbc:mariadb://db:3306/ssbd05</db.jdbc.url>
         <mysql.driver.name>mariadb-java-client-2.3.0.jar</mysql.driver.name>
@@ -485,12 +485,12 @@
             </plugins>
         </build>
     </profile>
-    <profile>
-        <id>disable-mailing</id>
-        <properties>
-            <enableMailing>false</enableMailing>
-        </properties>
-    </profile>
+<!--    <profile>-->
+<!--        <id>disable-mailing</id>-->
+<!--        <properties>-->
+<!--            <enableMailing>false</enableMailing>-->
+<!--        </properties>-->
+<!--    </profile>-->
   </profiles>
 
 
